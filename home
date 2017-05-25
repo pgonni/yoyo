@@ -1,0 +1,298 @@
+<html>
+    <head>
+        
+        <link rel="shortcut icon" type="image/x-icon" href="Media/favicon.ico" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        
+        <title> Subterranean Homesick Views </title>
+    
+        <style type="text/css">
+            
+            body {
+                
+            font-family: 'Montserrat', sans-serif;
+            
+                
+            }
+            
+            body, html {
+                
+                
+                width:100%;
+                height:100%;
+                margin:0;
+                padding: 0;
+                background-color: #E9EBEE;
+                
+            }
+            
+            
+            #header-bar-container {
+                
+                background-color: #5ea3db;
+                height:50px;
+                width:100%;
+                margin:0 auto;
+                margin-bottom: 10px;
+                
+            }
+            
+            #header-bar {
+                
+                width:100%;
+                max-width: 1200px;
+                margin:0 auto;
+                position: relative;
+                top: 15px;
+                text-align: center;
+                
+            }
+            
+            
+            #logo {
+                
+                width: 60px;
+                position:relative;
+                top: -2px;
+                left:29px;
+                padding-left: 10px;
+                transition: all 0.1s ease-in-out;
+                float:left;
+                
+            }
+            
+            #logo:hover {
+                
+                transform: scale(1.2,1.2);
+                
+            }
+            
+            #home-logo {
+                
+                margin: 0 auto;
+                
+            }
+            
+            #menu-bar {
+                
+                color: white;
+                width: 600px;
+                margin: 0 auto;
+                position: relative;
+                
+                
+            }
+            
+            .menu-item {
+                
+                padding: 0px 30px;
+                border-right: 1px white solid;
+                float:left;
+                font-size: 15px;
+                width: 85px;
+                text-align: center;
+                transition: all 0.1s ease-in;
+                
+            }
+            
+            .menu-item a {
+                
+                color:white;
+                text-decoration: none;
+                text-align: center;
+                
+            }
+            
+            .menu-item:hover {
+                
+                font-size: 16px;
+                text-decoration: none;
+                text-align: center;
+                
+            }
+            
+            .menu-item a:visited {
+                
+                color:white;
+                
+            }
+            
+            .menu-item-right {
+                
+                padding: 0px 30px;
+                position: relative;
+                float:left;
+                font-size: 15px;
+                width: 85px;
+                text-align: center;
+                transition: all 0.1s ease-in;
+                
+            }
+            
+            .menu-item-right a {
+                
+                color:white;
+                text-decoration: none;
+                
+            }
+            
+            
+            .menu-item-right:hover {
+                
+                transform: scale(1.0666);
+                text-decoration: none;
+                
+            }
+            
+            #searchbox {
+                
+                position: relative;
+                float: right;
+                height: 20px;
+                width: 180px;
+                font-family: 'Montserrat', sans-serif;
+                margin-right: 40px;
+                
+            }
+            
+            #bg-full {
+                
+                background-color: white;
+                display: block;
+                overflow: auto;
+                width:100%;
+                max-width: 1200px;
+                margin:0 auto;
+                margin-bottom: 100px;
+                border-radius: 3px;
+                padding-bottom: 40px;
+                
+}
+            
+            #title {
+                
+                width: 700px;
+                margin: 0 auto;
+                font-size: 60px;
+                font-weight: bolder;
+                padding: 10px;
+                position:relative;
+                text-align: center;
+                border-bottom: 1px #ccced1 solid;
+                
+            }
+            
+            #about-body {
+                
+                width: auto;
+                max-width: 1000px;
+                text-align: justify;
+                margin: 0 auto;
+                padding-top: 60px;
+                padding-bottom: 30px;
+                
+            }
+            
+            
+            
+            .clear-floats {
+                
+                clear: both;
+            }
+            
+            #back-to-top {
+                
+                width: 200px;
+                margin: 0 auto;
+                position: relative;
+                top: -58px;
+                font-size: 17px;
+                text-align: center;
+                transition: all 0.1s ease-in-out;
+                
+            }
+            
+            #back-to-top a{
+                
+                color: black;
+                text-decoration: none;
+                transition: all 0.1s ease-in-out;
+                
+            }
+            
+            #back-to-top a:hover{
+                
+                text-decoration: none;
+                font-size: 18px;
+                
+                
+            }
+            
+            #copyright {
+                
+                color: #88898c;
+                font-size: 12px;
+                width: 200px;
+                margin: 0 auto;
+                text-align: center;
+                position: relative;
+                top: -45px;
+                
+            }
+            
+            
+        </style>
+    </head>
+    
+    <body>
+        
+        <div id="header-bar-container" id="top">
+            
+        
+            <div id="header-bar">
+                
+                <div id="home-logo"><a href="home-mark.html"><img id="logo" src="Media/SHV-logo-type.png"></a></div>
+                
+                <div id="menu-bar">
+                
+                    <div class="menu-item"><a href="home-mark.html">ABOUT</a></div>
+                    <div class="menu-item"><a href="articles-mark.html">ARTICLES</a></div>
+                    <div class="menu-item"><a href="">TUTORIALS</a></div>
+                    <div class="menu-item-right"><a href="">RESOURCES</a></div>
+                    
+                </div>
+            <input id="searchbox" type="text" placeholder="Search">
+            
+            </div>
+            
+        </div>
+        <div class="clear-floats"></div>
+        
+        <div id="bg-full">
+        
+            <div id="title">SUBTERRANEAN HOMESICK VIEWS</div>
+            
+            <div class="clear-floats"></div>
+            
+            <div id="about-body">
+        
+                Welcome to Subterranean Homesick Views. This is a site by Mark Barrett where he posts some random economics related stuff. There are articles, and graphs, and pretty pictures, and also some tutorials so you can learn lots of super kew stuff. I'm Mr. Meeseeks look at me. <br>
+                <br>
+                Just gonna keep writing some shit because I guess I need another paragraph because the website's description should be a decent length I guess.
+                <br>
+                <br>
+                I was also thinking of putting some social media links but I guess you don't really have any social media relevant to the website's content and then I guess I also have the contact page so wtf am I even on about Wubba-Lubba-Dub-Dub.
+              
+        
+            </div>
+       
+        </div>
+        
+        <div id="back-to-top"><a href="#top">BACK TO TOP</a></div>
+    
+        <div id="copyright">&#9400;Piergiorgio Gonni</div>
+    
+    </body>
+
+</html>
